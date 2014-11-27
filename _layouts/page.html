@@ -11,6 +11,8 @@ layout: default
     {{ content }}
   </article>
 
+  <div class="hoverlist">
+    <h2>Recent Projects</h2>
     <ul>
       {% for post in site.posts %}
         <li>
@@ -18,5 +20,6 @@ layout: default
         </li>
       {% endfor %}
     </ul>
+  </div>
 
 </div>

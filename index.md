@@ -4,4 +4,4 @@ title: About
 permalink: /
 ---
 
-Hi there! Here's a place to see my recent projects.
+Hi there! I'm Ashvin, a sophomore studying EECS and math at UC Berkeley.

@@ -50,3 +50,34 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.hoverlist {
+    h2 {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+     
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+     
+    li a {
+      text-decoration: none;
+      color: #000;
+      display: block;
+     
+      -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+      -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+      -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+      -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+      transition: font-size 0.3s ease, background-color 0.3s ease;
+    }
+     
+    li a:hover {
+      font-size: $base-font-size;
+      background: #f0f0f0;
+    }
+}
