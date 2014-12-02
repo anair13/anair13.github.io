@@ -1,0 +1,13 @@
+---
+layout: project
+title:  "JamWithMe"
+date:   2014-12-31
+tags: [all, web-dev, hack, rails, js, firebase]
+comments: true
+projectlink: http://jamwithme.herokuapp.com/
+sourcelink: https://github.com/anair13/jam-with-me
+---
+
+A web-app created during HackTech in January 2014, back when modern web development libraries were still quite foreign to me. It uses Firebase to create a collaborative music website where every visitor landing on the website is editing the same piece of music for a minute.
+
+The app uses the Web Audio library in Javascript to play tunes, it actually ended up being quite hard to figure out and use during the 36-hour hackathon! It is engineered to be flexible for complicated sound mixing, but this meant simple playback ended up being pretty annoying. Eventually my hack for playing tones was actually to take a single note from an instrument, then scale it by frequencies corresponding to notes.
