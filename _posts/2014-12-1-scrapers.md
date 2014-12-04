@@ -8,4 +8,4 @@ comments: true
 
 Recently I've got into quite a few scraping projects to turn HTML into structured data. I've been using Scrapy, a Python library.
 
-Here's my running takeaway for how much knowledge you need to get started with Scrapy.
+I'll present some of my projects below when the source becomes open.

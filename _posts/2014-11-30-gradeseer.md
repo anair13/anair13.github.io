@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Student Grade Prediction"
+title:  "GradeSeer: Student Grade Prediction"
 date:   2014-11-30 15:28:00
 tags: [all, web-dev, machine-learning, rails, angularjs, mongodb, python]
 comments: true
