@@ -3,6 +3,7 @@ layout: project
 title:  "JamWithMe: In-Browser Music Collaboration"
 date:   2014-12-31
 tags: [all, web-dev, hack, rails, js, firebase]
+category: code
 comments: true
 projectlink: http://jamwithme.herokuapp.com/
 sourcelink: https://github.com/anair13/jam-with-me

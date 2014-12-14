@@ -3,6 +3,7 @@ layout: project
 title:  "GradeSeer: Student Grade Prediction"
 date:   2014-11-30 15:28:00
 tags: [all, web-dev, machine-learning, rails, angularjs, mongodb, python]
+category: code
 comments: true
 projectlink: http://gradeseer.com/
 sourcelink: https://github.com/anair13/gradebrain
