@@ -7,6 +7,7 @@ category: code
 comments: true
 projectlink: http://jamwithme.herokuapp.com/
 sourcelink: https://github.com/anair13/jam-with-me
+img: jamwithme.png
 ---
 
 A web-app created during HackTech in January 2014, back when modern web development libraries were still quite foreign to me. It uses Firebase to create a collaborative music website where every visitor landing on the website is editing the same piece of music for a minute.

@@ -7,6 +7,7 @@ category: code
 comments: true
 projectlink: http://gradeseer.com/
 sourcelink: https://github.com/anair13/gradebrain
+img: gradeseer.png
 ---
 
 This was our project for CalHacks (go Bears!).
