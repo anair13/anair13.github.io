@@ -27,7 +27,8 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+$pp-img: 90px;
+$pp-height: 100px;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -62,7 +63,7 @@ $on-laptop:        800px;
   }
    
   .projectpreview {
-    height: 60px;
+    height: $pp-height;
     text-decoration: none;
     color: #1756a9;
     display: block;
@@ -82,8 +83,8 @@ $on-laptop:        800px;
 
   img {
     float: left;
-    height: 50px;
-    width: 50px;
+    height: $pp-img;
+    width: $pp-img;
     padding: 5px;
     margin-right: 5px;
   }
