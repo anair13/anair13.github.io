@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "JamWithMe: In-Browser Music Collaboration"
-date:   2014-12-31
+date:   2014-1-24
 tags: [all, web-dev, hack, rails, js, firebase]
 category: code
 comments: true
