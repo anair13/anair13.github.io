@@ -11,4 +11,9 @@ sourcelink: https://github.com/ets-berkeley-edu/calcentral
 
 During my freshman year, I was a developer at CalCentral, the new official portal for students at Berkeley. It's pretty, it's functional, and it's open source.
 
-Besides bug fixes, one of the features I was responsible for was the book list for a semester.
+Probably the coolest thing I did at Calcentral was embed this map of the school which tells you where your next class is:
+
+{% youtube DAvSATknQOw %}
+
+Besides that and bug fixes, one of the features I was responsible for was the book list for a semester. The feature is live now (it's pretty useful at the start of a semester!)
+
