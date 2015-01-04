@@ -7,6 +7,7 @@ category: code
 comments: true
 projectlink: http://calcentral.berkeley.edu
 sourcelink: https://github.com/ets-berkeley-edu/calcentral
+img: calcentral.png
 ---
 
 During my freshman year, I was a developer at CalCentral, the new official portal for students at Berkeley. It's pretty, it's functional, and it's open source.

@@ -5,7 +5,7 @@ date:   2014-11-30 15:28:00
 tags: [all, web-dev, machine-learning, rails, angularjs, mongodb, python]
 category: code
 comments: true
-projectlink: http://gradeseer.com/
+projectlink: http://104.236.181.205/
 sourcelink: https://github.com/anair13/gradebrain
 img: gradeseer.png
 ---
