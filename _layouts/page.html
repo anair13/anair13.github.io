@@ -37,6 +37,8 @@ $( document ).ready(function() {
     </ul>
   </div>
 
+  <br />
+
   {% for tag in site.tags %}
     {% assign t = tag | first %}
     {% assign posts = tag | last %}
@@ -46,18 +48,32 @@ $( document ).ready(function() {
   <hr>
   {% for post in posts %}
     {% if post.tags contains t %}
-    <a href="{{ post.url }}">
-    <div class="projectpreview">
-      {% if post.img %}
-        <img src="{{ site.url }}/assets/{{ post.img }}">
+      {% if post.rinfo %}
+        <a href="{{ post.projectlink }}">
+        <div class="projectpreview">
+          {% if post.img %}
+            <img src="{{ site.url }}/assets/{{ post.img }}">
+          {% else %}
+            <img src="{{ site.url }}/assets/default.png">
+          {% endif %}
+          <b>{{ post.title }}</b> {{ post.rinfo }}
+        </div>
+        </a>
+        <hr>
       {% else %}
-        <img src="{{ site.url }}/assets/default.png">
+        <a href="{{ post.url }}">
+        <div class="projectpreview">
+          {% if post.img %}
+            <img src="{{ site.url }}/assets/{{ post.img }}">
+          {% else %}
+            <img src="{{ site.url }}/assets/default.png">
+          {% endif %}
+          {{ post.title }}<br>
+          {{ post.date | date: "%-d %b %Y" }}
+        </div>
+        </a>
+        <hr>
       {% endif %}
-      {{ post.title }}<br>
-      {{ post.date | date: "%-d %b %Y" }}
-    </div>
-    </a>
-    <hr>
     {% endif %}
   {% endfor %}
   </div>
