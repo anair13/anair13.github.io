@@ -55,26 +55,26 @@ $pp-height: 100px;
 .hoverlist {
   display: none;
   text-decoration:none;
-  
+
   h2 {
     text-align: center;
     margin: 0;
     padding: 0;
   }
-   
+
   .projectpreview {
     height: $pp-height;
     text-decoration: none;
     color: #1756a9;
     display: block;
-   
+
     -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
     -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
     -o-transition: font-size 0.3s ease, background-color 0.3s ease;
     -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
     transition: font-size 0.3s ease, background-color 0.3s ease;
   }
-   
+
   .projectpreview:hover {
     font-size: $base-font-size;
     text-decoration: none;
@@ -110,4 +110,8 @@ hr {
   border: 0; height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.domain::before {
+    content: "\0040";    /* Unicode character for @ symbol */
 }
