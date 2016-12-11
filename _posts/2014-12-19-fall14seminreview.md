@@ -3,7 +3,7 @@ layout: post
 title:  "Fall 2014 - Semester in Review"
 date:   2014-12-19
 category: opinion
-tags: [personal]
+tags: []
 comments: true
 ---
 

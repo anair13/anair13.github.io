@@ -63,6 +63,7 @@ $pp-height: 100px;
   }
 
   .projectpreview {
+    position:relative;
     min-height: $pp-height;
     text-decoration: none;
     color: #1756a9;
@@ -114,4 +115,10 @@ hr {
 
 .domain::before {
     content: "\0040";    /* Unicode character for @ symbol */
+}
+
+.date {
+  position:absolute;
+  bottom:0;
+  right:0;
 }

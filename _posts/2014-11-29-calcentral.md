@@ -2,7 +2,8 @@
 layout: project
 title:  "CalCentral Student Developing"
 date:   2014-11-29 0:27:00
-tags: [all, web-dev, rails, angularjs, maps]
+types: [all, web-dev, rails, angularjs, maps]
+tags: [all, projects]
 category: code
 comments: true
 projectlink: http://calcentral.berkeley.edu

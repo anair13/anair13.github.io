@@ -2,7 +2,8 @@
 layout: project
 title:  "Wanderlust: Starting Out with Computer Vision"
 date:   2014-12-30
-tags: [all, vision, web-dev, python, opencv, hack, flask, android, scrapy, mongodb]
+types: [all, vision, web-dev, python, opencv, hack, flask, android, scrapy, mongodb]
+tags: [all, projects]
 category: code
 comments: true
 sourcelink: https://github.com/anair13/where-am-i

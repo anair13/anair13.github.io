@@ -30,14 +30,16 @@ $( document ).ready(function() {
 
   <p style="clear: both;"></p>
 
-  <div class="postsbytags">
-    <ul>
-    {% for tag in site.tags %}
-      {% assign t = tag | first %}
-      <li><a href="javascript:toggleDiv('{{ t | downcase }}');">{{ t | downcase }}</a> {% unless forloop.last %} | {% endunless %} </li>
-    {% endfor %}
-    </ul>
-  </div>
+  <center>
+    <div class="postsbytags">
+      <ul>
+      {% for tag in site.tags %}
+        {% assign t = tag | first %}
+        <li><a href="javascript:toggleDiv('{{ t | downcase }}');">{{ t | downcase }}</a> {% unless forloop.last %} | {% endunless %} </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </center>
 
   <br />
 
@@ -50,7 +52,7 @@ $( document ).ready(function() {
   <hr>
   {% for post in posts %}
     {% if post.tags contains t %}
-      {% if post.rinfo %}
+      {% if post.layout == "research" %}
         <a href="{{ post.projectlink }}">
         <div class="projectpreview">
           {% if post.img %}
@@ -58,7 +60,32 @@ $( document ).ready(function() {
           {% else %}
             <img src="{{ site.url }}/assets/default.png">
           {% endif %}
-          <b>{{ post.title }}</b> {{ post.rinfo }}
+          <b>{{ post.title }}</b> {{ post.rinfo }}<br />
+
+          {% if post.pdf %}
+            [<a href="{{ post.pdf }}">PDF</a>]
+          {% endif %}
+          [<a href="{{ post.projectlink }}">Website</a>]
+          <div class="date">
+            {{ post.date | date: "%b %Y" }}
+          </div>
+        </div>
+        </a>
+        <hr>
+      {% elsif post.layout == "news" %}
+        {% if post.projectlink %}
+          <a href="{{ post.projectlink }}">
+        {% endif %}
+        <div class="projectpreview">
+          {% if post.img %}
+            <img src="{{ site.url }}/assets/{{ post.img }}">
+          {% else %}
+            <img src="{{ site.url }}/assets/default.png">
+          {% endif %}
+          {{ post.title }}
+          <div class="date">
+            {{ post.date | date: "%b %Y" }}
+          </div>
         </div>
         </a>
         <hr>
@@ -70,8 +97,16 @@ $( document ).ready(function() {
           {% else %}
             <img src="{{ site.url }}/assets/default.png">
           {% endif %}
-          {{ post.title }}<br>
-          {{ post.date | date: "%-d %b %Y" }}
+          {{ post.title }}<br />
+          {% for tg in post.types %}
+            {% if tg != "all" %}
+              {{ tg | downcase }}
+            {% endif %}
+            {% unless forloop.first %}{% unless forloop.last %}/ {% endunless %}{% endunless %}
+          {% endfor %}
+          <div class="date">
+            {{ post.date | date: "%b %Y" }}
+          </div>
         </div>
         </a>
         <hr>
