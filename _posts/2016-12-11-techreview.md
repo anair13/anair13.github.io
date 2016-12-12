@@ -2,7 +2,6 @@
 layout: news
 title:  'Our work was featured in a MIT Technology Review article: "AI Begins to Understand the 3-D World".'
 date:   2016-12-10
-types: [all, robotics, vision, python, research, caffe, machine-learning, neural-nets, opencv, ros]
 tags: [all, news]
 category: code
 comments: true
