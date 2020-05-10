@@ -57,6 +57,8 @@ $( document ).ready(function() {
         <div class="projectpreview">
           {% if post.img %}
             <img src="{{ site.url }}/assets/{{ post.img }}">
+          {% elsif post.externalimg %}
+            <img src="{{ post.externalimg }}">
           {% else %}
             <img src="{{ site.url }}/assets/default.png">
           {% endif %}
