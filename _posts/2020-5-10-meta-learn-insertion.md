@@ -9,6 +9,6 @@ types: [all, robotics, rl, python, research, machine-learning, neural-nets, meta
 tags: [all, research]
 category: code
 comments: true
-img: industrial_insertion.png
+img: https://media.giphy.com/media/dBHqeP3ak7vEpXxXeD/giphy.gif
 projectlink: https://pearl-insertion.github.io/
 ---
