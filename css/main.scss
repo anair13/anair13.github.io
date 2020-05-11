@@ -27,8 +27,9 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$pp-img: 90px;
-$pp-height: 100px;
+$pp-img: 150px;
+$pp-height: 160px;
+$pp-margin: 20px;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -63,9 +64,11 @@ $pp-height: 100px;
   }
 
   .projectpreview {
+    padding: 20px 10px 20px 20px;
     position:relative;
     min-height: $pp-height;
     text-decoration: none;
+    text-align: justify;
     color: #1756a9;
     display: block;
 
@@ -90,7 +93,7 @@ $pp-height: 100px;
     float: left;
     height: $pp-img;
     width: $pp-img;
-    padding: 5px;
+    padding: 5px 20px 5px 20px;
     margin-right: 5px;
   }
 }
@@ -119,6 +122,6 @@ hr {
 
 .date {
   position:absolute;
-  bottom:0;
-  right:0;
+  bottom:$pp-margin;
+  right:$pp-margin;
 }

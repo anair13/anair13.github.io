@@ -10,3 +10,7 @@ github_username:  anair13
 
 # Build settings
 markdown: kramdown
+
+# This will require each of these plugins automatically.
+plugins:
+  - jekyll-gist
