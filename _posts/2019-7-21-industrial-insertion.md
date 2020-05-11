@@ -8,6 +8,7 @@ types: [all, robotics, rl, python, research, machine-learning, neural-nets]
 tags: [all, research]
 category: code
 comments: true
-img: industrial_insertion.png
+<!-- img: industrial_insertion.png -->
+externalimg: https://media.giphy.com/media/MEvKBV9MGXIUl1CoKj/giphy.gif
 projectlink: https://industrial-insertion-rl.github.io/
 ---
