@@ -7,7 +7,7 @@
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size:   2.5vh; // 16px
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -27,9 +27,9 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$pp-img: 150px;
-$pp-height: 160px;
-$pp-margin: 20px;
+$pp-img: 150px; // 25vh; //
+$pp-height: 160px; // 27vh; //
+$pp-margin: 20px; // 4vh; //
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -69,7 +69,6 @@ $pp-margin: 20px;
     min-height: $pp-height;
     text-decoration: none;
     text-align: justify;
-    color: #1756a9;
     display: block;
 
     -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;

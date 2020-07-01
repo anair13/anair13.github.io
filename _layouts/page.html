@@ -53,7 +53,7 @@ $( document ).ready(function() {
   {% for post in posts %}
     {% if post.tags contains t %}
       {% if post.layout == "research" %}
-        <a href="{{ post.projectlink }}">
+        <!-- <a href="{{ post.projectlink }}"> -->
         <div class="projectpreview">
           {% if post.img %}
             <img src="{{ site.url }}/assets/{{ post.img }}">
@@ -74,7 +74,7 @@ $( document ).ready(function() {
             </div>
           </div>
         </div>
-        </a>
+        <!-- </a> -->
         <hr>
       {% elsif post.layout == "news" %}
         {% if post.projectlink %}
